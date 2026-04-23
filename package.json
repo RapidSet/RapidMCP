@@ -15,7 +15,7 @@
     "format": "prettier . --write",
     "format:check": "prettier . --check",
     "pack": "pnpm pack",
-    "pack:dry-run": "pnpm pack --dry-run",
+    "pack:dry-run": "npm pack --dry-run",
     "prepublishOnly": "pnpm run lint && pnpm run format:check && pnpm run pack:dry-run"
   },
   "keywords": [
