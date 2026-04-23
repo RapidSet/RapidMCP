@@ -1,0 +1,14 @@
+# Do not publish local/dev artifacts
+node_modules/
+.git/
+.github/
+.vscode/
+
+# Build/test outputs
+coverage/
+dist/
+
+# Local env/log files
+.env
+.env.*
+*.log
