@@ -1,6 +1,6 @@
 {
   "name": "@rapidset/rapidmcp",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Standalone MCP server for RapidKit contracts, docs, and validation workflows",
   "type": "module",
   "main": "./src/index.mjs",
