@@ -16,7 +16,11 @@
     "format:check": "prettier . --check",
     "pack": "pnpm pack",
     "pack:dry-run": "npm pack --dry-run",
-    "prepublishOnly": "pnpm run lint && pnpm run format:check && pnpm run pack:dry-run"
+    "prepublishOnly": "pnpm run lint && pnpm run format:check && pnpm run pack:dry-run",
+    "release": "changeset publish",
+    "release:dry": "changeset status --verbose",
+    "changeset": "changeset",
+    "version-packages": "changeset version"
   },
   "keywords": [
     "mcp",
@@ -46,6 +50,7 @@
   },
   "packageManager": "pnpm@9.15.1+sha512.1acb565e6193efbebda772702950469150cf12bcc764262e7587e71d19dc98a423dff9536e57ea44c49bdf790ff694e83c27be5faa23d67e0c033b583be4bfcf",
   "devDependencies": {
+    "@changesets/cli": "^2.29.7",
     "@eslint/js": "^10.0.1",
     "eslint": "^10.2.1",
     "eslint-config-prettier": "^10.1.8",
