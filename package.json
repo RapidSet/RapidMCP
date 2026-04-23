@@ -23,6 +23,14 @@
     "rapidkit",
     "rapidset"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RapidSet/RapidMCP"
+  },
+  "bugs": {
+    "url": "https://github.com/RapidSet/RapidMCP/issues"
+  },
+  "homepage": "https://github.com/RapidSet/RapidMCP",
   "license": "MIT",
   "files": [
     "src",
